@@ -1,5 +1,5 @@
 {
-    "name": "Ultroid UserBot",
+    "name": "Ultroid & Ledy userbot",
     "description": "Pluggable telegram userbot, made in python using Telethon.",
     "logo": "https://telegra.ph/file/031957757a4f6a5191040.jpg",
     "keywords": [
@@ -7,45 +7,30 @@
         "telegram",
         "userbot",
         "python",
-        "ultroid"
+        "uledy"
     ],
     "repository": "https://github.com/AzeMusic/ubot",
-    "website": "https://ultroid.tech",
-    "success_url": "https://t.me/TheUltroid",
+    "website": "https://ledyplaylist",
+    "success_url": "https://t.me/soqrup",
     "stack": "container",
     "env": {
         "API_ID": {
-            "description": "You api id, from my.telegram.org or @ScrapperRoBot.",
-            "value": "18052289", 
-            "required": false
         },
         "API_HASH": {
-            "description": "You api hash, from my.telegram.org or @ScrapperRoBot.",
-            "value": "552525f45a3066fee54ca7852235c19c",
-            "required": false
         },
         "SESSION": {
-            "description": "Your session string. Can be added now, or after deploy. (The bot will NOT work without a session string!!)",
-            "value": "1ApWapzMBu2gJ8E2Zp4ctJThLgX1gCG_SkApZEK9Ff58S6yBfYnqGV7X3jBLF5TqiCpTeaRQ65hKmjddrOl5IaqVDp4pa1ZGNwS_Khjkl2r3RjRzzeCXhudMxEIFfTHY79LU6EYfdWBuF4cCYa9uG7yykBOH4dnQl-2upusX7zToxZOR0aLHDe4NIU3m9xxyCwj-bvgXFo8DgnBErjltMyX_TbA8vFATXQ2BHLmlBGm9jkSXfjaj8eriZ7-RxFOSL6K_daSWITA87zZ2Ap8WSeSGRTndOkL9u7bCtX4UfEz5_9IhAHsr9ga1ME42wDnhQhypZjqh26DXU_OcGsFw2K4f45fgjAIY="
         },
         "REDIS_URI": {
-            "description": "Redis endpoint URL, from redislabs.com",
-            "value": "redis-15623.c241.us-east-1-4.ec2.cloud.redislabs.com:15623"
         },
         "REDIS_PASSWORD": {
-            "description": "Redis endpoint password, from redislabs.com",
-            "value": "agarza2007"
         },
         "HEROKU_API": {
-            "description": "Heroku API token. Mandatory for Heroku Deploy...",
-            "value": "ef098244-4921-434d-bd7a-172f4315fed0",
-            "required": false
         },
         "HEROKU_APP_NAME": {
         }
     },
     "formation": {
-        "ultroid": {
+        "uledy": {
             "quantity": 1,
             "size": "free"
         }
