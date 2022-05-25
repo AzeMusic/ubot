@@ -7,7 +7,7 @@
         "telegram",
         "userbot",
         "python",
-        "uledy"
+        "ultroid"
     ],
     "repository": "https://github.com/AzeMusic/ubot",
     "website": "https://ledyplaylist",
@@ -30,7 +30,7 @@
         }
     },
     "formation": {
-        "uledy": {
+        "ultroid": {
             "quantity": 1,
             "size": "free"
         }
